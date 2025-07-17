@@ -5,10 +5,12 @@ import Connexion from './pages/Connexion'
 import Inscription from './pages/Inscription'
 import Dashboard from './pages/Dashbord'
 import Projets from './pages/Projets'
+import Header from "./components/Header"
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/Apropos" element={<Apropos/>} />
