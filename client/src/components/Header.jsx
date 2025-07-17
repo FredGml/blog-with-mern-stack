@@ -30,7 +30,7 @@ export default function Header() {
         <FaMoon/> 
       </Button>
          <Link to='/Connexion'>
-            <Button color='blue'>
+            <Button color='blue' outline>
               Connexion
             </Button>
           </Link>

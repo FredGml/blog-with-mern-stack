@@ -1,0 +1,26 @@
+{
+  "name": "blog-with-mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon api/server.js",
+    "start": "nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredGml/blog-with-mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredGml/blog-with-mern-stack/issues"
+  },
+  "homepage": "https://github.com/FredGml/blog-with-mern-stack#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
