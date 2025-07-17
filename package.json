@@ -2,7 +2,7 @@
   "name": "blog-with-mern-stack",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon api/server.js",
